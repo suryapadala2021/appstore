@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100px;
+}
+.app-name {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-size: 16px;
+}
+.app-image {
+  height: 45px;
+  width: 45px;
+}
+@media screen and (min-width: 768px) {
+  .app {
+    width: 220px;
+  }
+  .app-name {
+    font-size: 24px;
+  }
+  .app-image {
+    width: 90px;
+    height: 90px;
+  }
+}

@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.main-heading {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 60px;
+  }
+}
+.app-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.input-box {
+  border-style: solid;
+  border-color: #dfe2e5;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-width: 1px;
+  width: 200px;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .input-box {
+    width: 650px;
+    padding: 10px;
+  }
+}
+.input {
+  border-color: #dfe2e5;
+  border-width: 0px;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+}
+.search-icon {
+  height: 20px;
+}
+.tab-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .tab-container {
+    width: 400px;
+  }
+}
+.app-con {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 220px;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .app-con {
+    width: 700px;
+  }
+}
